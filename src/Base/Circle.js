@@ -54,7 +54,8 @@ const BaseCircle = ({ color, defaultSize, name, size, ...props }, { betterReactS
   const outer = {
     height: finalSize,
     position: 'relative',
-    width: finalSize
+    width: finalSize,
+    zoom: '80%'
   }
   const innerCircleBefore = {
     ...animate({
